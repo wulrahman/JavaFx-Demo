@@ -1,0 +1,48 @@
+Button {
+    -fx-padding:10px;
+    -fx-background-color:linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #bb96e1ff 0.0%, #5c56bbff 100.0%);
+    -fx-text-align:center;
+    -fx-color:green;
+    -fx-pref-width:100px;
+    -fx-background-radius:5,5;
+
+}
+TextField {
+    -fx-padding:10px;
+    -fx-background-color:#3b4045;
+    -fx-text-fill:white;
+    -fx-background-radius:5,5;
+    -fx-pref-width:100%;
+    -fx-transition:width 1px;
+    -fx-text-align:left;
+    -fx-min-width:300px;
+}
+Button:hover {
+    -fx-background-color:linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #c21702ff 0.0%, #ffc803ff 100.0%);
+}
+#Grades{
+    -fx-text-fill:white;
+    -fx-pref-width:200px;
+    -fx-pref-height:300px;
+}
+#listView {
+    -fx-pref-width:200px;
+    -fx-pref-height:300px;
+}
+.root {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+ListView, .list-view, .list-view:focus {
+    -fx-border-color: #dddddd;
+    -fx-background:transparent;
+}
+.list-view .list-cell{
+    -fx-padding:10px;
+    -fx-border:0;
+    -fx-background-radius:5,5;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-border-color: #dddddd;
+}
